@@ -134,6 +134,9 @@ int main() {
 			}
 			}
 		}
-		
+		catch (exception& e) {
+			cout << "check for the velues entered." << endl;
+		}
 	}
+	return 0;
 }
