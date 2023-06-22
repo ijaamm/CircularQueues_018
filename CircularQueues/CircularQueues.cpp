@@ -101,5 +101,16 @@ int main() {
 	queues q;
 	char ch;
 
-
+	while (true) {
+		try {
+			cout << "Menu" << endl;
+			cout << "1. implement insert operation" << endl;
+			cout << "2. implement delete operation" << endl;
+			cout << "3. display values" << endl;
+			cout << "4. exit" << endl;
+			cout << "enter your choise (1-4): ";
+			cin >> ch;
+			cout << endl;
+		}
+	}
 }
